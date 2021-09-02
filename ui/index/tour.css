@@ -1,0 +1,65 @@
+#tour {
+    border-bottom: 2px solid #030e48;
+    /* margin-bottom: 50px; */
+    padding-right: 30%;
+    padding-left: 10%;
+    padding-bottom: 150px;
+}
+
+#tour > * {
+    margin: 5px;
+}
+
+#tour img {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #030e48;
+    padding: 2px
+}
+
+.play_video .pe-7s-angle-down {
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    top: 2px;
+    left: 15px;
+}
+
+.play_video  .line {
+    width: 2px;
+    height: 20px;
+    background: #666;
+    display: inline-block;
+    position: relative;
+    left: 27px;
+}
+
+
+.play_video > * {
+    margin: 15px
+}
+
+.video_caption {
+    font-size: 150%;
+    line-height: 150%;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top:0px
+}
+
+#youtube_video {
+    border: 2px solid #020d47;
+    border-radius: 10px;
+    margin: 12%;
+    margin-top: 0px;
+    position: relative;
+    top: -120px;
+    padding-bottom: -20px;
+    margin-bottom: -70px;
+}
+
+#youtube_video iframe {
+    margin-bottom: -5px
+}

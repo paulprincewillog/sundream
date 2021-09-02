@@ -1,0 +1,168 @@
+#top_description {
+    background-image: url('../../_assets/images/sundream-schools-owerri.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    display: block;
+}
+
+
+#top_description:after {
+  content: '';
+  width: 100%;
+  height: 100px;
+  display: block;
+  background: linear-gradient(transparent, rgba(0, 8, 51,0.5), rgb(0, 8, 51));
+  position: absolute;
+  bottom: 0px
+}
+
+#top_description > div {
+    padding: 10%;
+    padding-top: 20%;
+    /* background-color: rgba(0,0,0,0.7); */
+}
+
+#top_description h1 {
+  font-size: 280%;
+  width: 60%;
+  color: white;
+  line-height: 120%;
+}
+
+#top_description h2 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: normal;
+  width: 60%;
+  line-height: 150%;
+}
+
+#top_description h3 {
+  width: 60%;
+  line-height: 170%;
+  color: #ddd;
+  font-family: 'Metropolis Light';
+  font-size: 150%;
+}
+
+
+#top_description [itemprop="name"] {
+  font-family: 'Metropolis black', Arial;
+}
+
+#top_description button {
+  margin-right: 30px;
+  padding: 7px 25px 7px 20px;
+  background-color:#156bfb;
+  border-radius: 50px;
+  font-weight: normal;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#top_description #latest_update {  
+  box-shadow: 0px 10px 25px #000;
+}
+
+#top_description #latest_update:hover {
+    box-shadow: 0px 0px 10px #000
+}
+
+
+
+#top_description span {
+    display: inline-block;
+}
+
+.arrow {
+    margin-left: 20px
+}
+
+
+.arrow {
+	-webkit-animation: gif 1s infinite alternate;
+	animation: gif 1s infinite alternate;
+	position: relative;
+	font-size: 20px;
+}
+
+@keyframes gif {
+  from {
+    top: 15px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes gif {
+  from {
+    top: 15px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+
+#submit_number_top [name='full_name'] {
+  display: none;
+  border-top: 2px solid rgb(21 40 72);
+}
+
+#top_description .form button[name='submit_button'] {
+  bottom: 0px;
+  top: auto;
+  display: none;
+  margin-bottom: 10px
+}
+
+#top_description .form [dd_feedback] {
+  display: block;
+  opacity: 1;
+  text-align: left;
+  margin-left: 40px;
+  width: 60%;
+  margin-bottom: 0px;
+  color: white;
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    
+  #top_description {
+    background-image: url('../../_assets/images/students-of-blue-diamond-schools-mobile-2.webp');
+    padding-bottom: 50px
+  }
+
+  #top_description h3, #top_description h1 {
+    width: 90%
+  }
+
+  #top_description h1 {
+    font-size: 200%
+  }
+
+  #latest_update {
+    margin-top: 20px
+  }
+}
+
+
+#home .prev_view {
+  display: none
+}
+
+#home .next_view {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#home .navigation {
+  bottom: 30px;
+  position: relative;
+}

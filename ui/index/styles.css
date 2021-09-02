@@ -1,0 +1,77 @@
+.blank_area {
+    height: 200px;
+    background: white;
+    width: 100%
+}
+
+
+#transition {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background:#000;
+    display: none;
+    z-index: 3;
+}
+
+.title {
+    align-items: flex-start;
+    display: flex;
+    padding-top: 20px;
+    margin-left: 12%;
+    margin-right: 30%;
+}
+
+.title h2 {
+    margin-bottom: 40px;
+    font-size: 200%;
+    line-height: 150%;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+.title i {
+    border: 2px solid #172989;
+    border-radius: 50%;
+    opacity: 0.5;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    margin-top: 10px;
+}
+
+/* ------------------- ADD ONS --- */
+.flex {
+    display: flex;
+}
+
+.flex_center {
+    align-items: center;
+}
+
+.down_pointer {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 400;
+    box-shadow: 0 5px 20px #444;    
+    background: rgba(0, 8, 51, 0.7);
+    border: 2px solid rgb(21 40 72);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.down_pointer i {
+    position: relative;
+    top: -3px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}

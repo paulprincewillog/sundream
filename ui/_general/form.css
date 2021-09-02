@@ -1,0 +1,36 @@
+button {
+    margin-right: 30px;
+    padding: 7px 25px 7px 20px;
+    background-color:#156bfb;
+    border-radius: 50px;
+    font-weight: normal;
+    font-size: 110%;
+    font-weight: bold;
+    border: 0px;
+    color: white
+}
+  
+
+button:hover {
+    box-shadow: inset 0em 0em 0em 10em rgba(0, 0, 0, 0.3);
+}
+
+form {
+    overflow: hidden;
+}
+
+form input, form textarea, form select, input[type='text'] {
+    display: block;
+    width: -webkit-fill-available;
+    border: 0px;
+    border-bottom: 2px solid #333;
+    padding: 20px 50px;
+    font-size: 120%;
+    background: transparent;
+    color: #ccc;
+}
+
+form button {
+    margin: 20px 10px;
+    display: block;
+}

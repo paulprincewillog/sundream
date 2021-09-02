@@ -1,0 +1,126 @@
+* {
+  font-family: 'Metropolis Light', Arial;
+  font-weight: 300;
+  font-style: normal;
+  transition: box-shadow 0.5s, background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    line-height: 150%;
+    background: #000833;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #ab83ef; ;
+    cursor: pointer
+}
+
+a:hover {
+  color:#673ab7
+}
+
+h1, h2, h3 {
+  font-family: 'Metropolis black', Arial;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.arrow_right {
+	-webkit-animation: gif_right 1s infinite alternate;
+	position: relative;
+	font-size: 20px;
+	font-weight: bold;
+	animation: gif_right 1s infinite alternate;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+@keyframes gif_right {
+  from {
+    left: 20px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes gif_right {
+  from {
+    left: 20px;
+  }
+  to {
+    left: 0px;
+  }
+} 
+
+
+
+/* ------------------- SECTIONS --- */
+  
+main {
+  position: relative;
+  background: #000833;
+  color: white
+}
+
+main > section {
+  position: relative;
+  overflow: hidden
+}
+/* 
+main:after {
+  width: 15px;
+  height: 100%;
+  background: #000833;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  bottom: 0px;
+  pointer-events:none;
+  z-index: 1;
+  cursor: grab
+} */
+
+.current_view {
+  display: block !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  cursor: pointer
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000833;
+  cursor: grab 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#020b42; 
+  border: 1px solid #040f55;
+  /* border-radius: 50px; */
+  transition: all 0.5s;
+  cursor: pointer
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000833;
+  cursor: grab
+
+}
+
+
+#announcement {
+  display: none
+}

@@ -1,0 +1,66 @@
+.form {
+    width: 60%;
+}
+
+.form button {
+    position: absolute;
+    right: 0px;
+    top: -8px;
+}
+
+.form form {
+    position: relative;
+}
+
+.form button i {
+    -webkit-animation: gif_right 2s infinite alternate;
+    animation: gif_right 2s infinite alternate;
+    position: relative;
+    top: 3px;
+}
+
+.form form {
+    background: rgba(0, 8, 51, 0.7);
+    border-radius: 5px;
+    border: 2px solid rgb(21 40 72);
+}
+
+.form p {
+    font-size: 150%;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    width: 50%;
+    line-height: 150%;
+    color: #ddd;
+}
+
+.form input {
+    border-bottom: 0px
+}
+
+.form .paragraph {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#footer .form {
+    margin: 5% 12%; 
+    width: 50%   
+}
+
+#footer [name='full_name'] {
+    display: block;
+    border-top: 2px solid rgb(21 40 72);
+}
+
+#footer .form button[name='submit_button'] {
+    bottom: 0px;
+    top: auto;
+    display: block;
+    margin-bottom: 10px
+}
+  
+#footer .form .next_button {
+    display: none;
+}
+  

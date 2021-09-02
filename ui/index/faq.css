@@ -1,0 +1,30 @@
+#faq {
+    flex-flow: row wrap;
+    margin: 0px 12%;
+}
+
+#faq div {
+    padding: 10px 40px;
+    flex: 1 0 30%;
+    border: solid  #030e48;
+    border-width: 2px 2px 0px 0px
+}
+
+
+#faq > *:nth-child(even) {
+    border-right: 0px;
+}
+
+#faq > *:nth-child(odd) {
+    padding-left: 0px;
+}
+
+
+#faq > div:first-child, #faq > div:nth-child(2)  {
+    border-top: 0px
+}
+
+#faq h3 {
+    font-size: 150%;
+    line-height: 160%;
+}

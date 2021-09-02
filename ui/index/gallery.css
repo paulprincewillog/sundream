@@ -1,0 +1,47 @@
+#gallery {
+    margin: 0px 10%;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid #030e48;
+    border-bottom: 0px;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto
+}
+
+#gallery .each_picture {
+    position: relative;
+    border-right: 2px solid #030e48;
+    flex: 1 0 40%;
+    border-bottom: 2px solid #030e48;
+
+}
+
+#gallery .each_picture > div {
+    padding: 10px 30px;
+    background: rgba(0,8,51,1);
+    position: relative;
+    top: -20%;
+    right: 0;
+    left: 0;
+    margin-bottom: -20%;
+}
+
+#gallery .each_picture > div:before {
+    content: '';
+    width: 100%;
+    height: 100px;
+    display: block;
+    background: linear-gradient(transparent,rgba(0,8,51,.5),rgb(0,8,51));
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    right: 0px;
+}
+
+#gallery > *:nth-child(even) {
+    border-right: 0px;
+}
